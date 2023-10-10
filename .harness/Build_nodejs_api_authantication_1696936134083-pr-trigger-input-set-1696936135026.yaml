@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nodejs_api_authantication_1696936134083-pr-trigger-input-set
+  identifier: Build_nodejs_api_authantication_1696936134083prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Project1
+  pipeline:
+    identifier: Build_nodejs_api_authantication_1696936134083
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
